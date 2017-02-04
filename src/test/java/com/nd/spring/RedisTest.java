@@ -14,10 +14,10 @@ import com.nd.spring.dao.ValueRedisDao;
 public class RedisTest {
     @Autowired
     private ValueRedisDao valueRedisDao;
- 
+
     @Test
     public void test() throws Exception {
-    this.valueRedisDao.save("cc");
-    System.out.println(this.valueRedisDao.getParam());
+        this.valueRedisDao.save("cc");
+        System.out.println(this.valueRedisDao.getParam());
     }
 }
